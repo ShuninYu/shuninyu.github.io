@@ -1,2 +1,3 @@
 # shuninyu.github.io
-# theme: Cayman
+# Build settings
+heme: Cayman
