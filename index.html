@@ -4,22 +4,45 @@
         <meta charset="utf-8">
         <title>孤灯的灯塔 - 孤灯从流个人网站</title>
         <link rel="icon" href="icon\duckhead.png">
-    </head>
-
-    <style>
+        <!--“line-height”值“25px”（调整行距）。-->
+        <!--“text-indent”值“2em”（首行缩进2字符）。-->
+        <style type="text/css">
+            h1 {line-height: normal;}
+        </style>
+        <style>
         * {
             margin: 0;
             padding: 0;
         }
-    </style>
+        .container { position:relative; }
+        .container video {
+            position:relative;
+            display: block;
+            z-index:0;
+            overflow:hidden;
+        }
+        .overlay {
+            position:absolute;
+            top: 100px;
+            left: 660px;
+            z-index: 1;
+        }
+        </style>
+    </head>
 
     <body>
-
-        <div style="text-align:center"> 
+        <div class="container" style="text-align: center"> 
             <video id="video1" width="1920" loop="loop" autoplay muted>
-              <source src="video\duck_dance.mp4" type="video/mp4">
-              您的浏览器不支持 HTML5 video 标签。
+                <source src="video\duck_dance.mp4" type="video/mp4">
             </video>
+            <div class="overlay" style="line-height: 1;">
+                <p1 style="font-size: 120px; color:white; font-weight: lighter;">
+                    <br/>孤灯的灯塔
+                </p1>
+                <p1 style="font-size: 30px; color:white; opacity: 0.6; font-weight: lighter;">
+                    <br/>孤灯从流个人网站
+                </p1>
+            </div>
         </div> 
 
         <script> 
@@ -28,26 +51,25 @@
             function playPause()
             { 
                 if (myVideo.paused) 
-                  myVideo.play(); 
+                    myVideo.play(); 
                 else 
-                  myVideo.pause(); 
+                    myVideo.pause(); 
             } 
             
-                function makeBig()
+            function makeBig()
             { 
                 myVideo.width=560; 
             } 
             
-                function makeSmall()
+            function makeSmall()
             { 
                 myVideo.width=320; 
             } 
             
-                function makeNormal()
+            function makeNormal()
             { 
                 myVideo.width=420; 
             } 
-            </script> 
-
+        </script> 
     </body>
 </html>
