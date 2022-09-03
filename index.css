@@ -11,7 +11,7 @@ h1 {line-height: normal;}
 
 body {
     /* background-color: rgb(27, 27, 27); */
-    background: linear-gradient(skyblue, lightblue);
+    background: linear-gradient(black, skyblue);
 }
 
 .topbutton {
