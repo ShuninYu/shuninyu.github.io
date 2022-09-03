@@ -7,11 +7,9 @@
     font-family: 'STSong';
 }
 
-h1 {line-height: normal;}
-
 body {
     /* background-color: rgb(27, 27, 27); */
-    background: linear-gradient(skyblue, lightblue);
+    background: linear-gradient(skyblue,lightblue );
 }
 
 .topbutton {
@@ -50,20 +48,24 @@ body {
     opacity: 0.9;
 }
 
-.container {
-    position:absolute;
-    overflow: hidden;
-    top: 100px;
-    height: 800px;
+h1 {
+    text-align: center;
 }
 
-.container video {
-    position:relative;
-    display: block;
-    z-index: 0;
-    overflow:hidden;
+.type1 {
+    text-align: left;
 }
 
-.overlay {
-    z-index: 1;
+.type2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+p1 {
+    position: relative;
+    left: 30vw;
+    text-align: left;
 }
