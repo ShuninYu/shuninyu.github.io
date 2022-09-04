@@ -29,3 +29,15 @@
         </br><hr></hr></br>
         <p>
             ✨ 🔭 <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="25" height="25">🔭 ✨
+
+            <div>
+            请我喝一杯咖啡☕ 👉 
+            <a href="https://www.buymeacoffee.com/shuninyu">
+                <img src="https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellowgreen.svg"/>
+            </a>
+        </div>
+
+        
+            <img src="image/BananaProject_big.png" width="80px" style="position: absolute ; top: 5px; left: 5px;"> 左上角香蕉计划
+
+            rgb(30, 50, 50) //夜间模式背景色

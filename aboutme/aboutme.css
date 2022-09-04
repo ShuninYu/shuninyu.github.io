@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'STSong';
 }
 
@@ -31,14 +32,14 @@ body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off
 /*↑↑↑萌娘百科版文字黑幕↑↑↑*/
 
 body {
-    /* background-color: rgb(27, 27, 27); */
-    background: linear-gradient(black, rgb(20, 80, 100));
+    background-color: white;
+    /* background: linear-gradient(black, rgb(20, 80, 100)); */
 }
 
 .topbutton {
     border-style: none;
     margin: 0;
-    width: 200px;
+    width: 10vw;
     height: 100px;
     background-color: white;
     color: black;
