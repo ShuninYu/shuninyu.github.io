@@ -32,7 +32,7 @@ body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off
 
 body {
     /* background-color: rgb(27, 27, 27); */
-    background: linear-gradient(black, rgb(30, 80, 100));
+    background: linear-gradient(black, rgb(20, 80, 100));
 }
 
 .topbutton {
