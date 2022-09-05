@@ -13,6 +13,12 @@ h1 {
     text-align: center;
 }
 
+.colortext {
+    background-image: -webkit-linear-gradient(left, rgb(172, 225, 243), skyblue , rgb(199, 227, 236));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 p {
     text-align: center;
 }
