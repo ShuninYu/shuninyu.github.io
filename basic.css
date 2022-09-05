@@ -36,6 +36,24 @@ body {
     /* background: linear-gradient(black, rgb(20, 80, 100)); */
 }
 
+/*到顶部↓*/
+#gotop{
+    position: fixed;
+    display: none;
+    right: 20px;
+    bottom: 20px;
+    z-index: 11;
+}
+
+#gotop img{
+    width: 130px;
+}
+
+#gotop img:hover{
+    cursor: pointer;
+}
+/*到顶部↑*/
+
 .topbutton {
     border-style: none;
     margin: 0;
@@ -60,7 +78,7 @@ body {
     /* background-color: white; */
     top: auto;
     left: 0px;
-    width: 100%;
+    width: 100vw;
     height: 100px;
     z-index: 10;
 }
@@ -69,33 +87,16 @@ body {
     background-color: white;
     text-align: center;
     overflow: hidden;
-    width: 100%;
+    width: 100vw;
     height: 100px;
     opacity: 0.9;
 }
 
-h1 {
-    text-align: center;
-}
-
-.type1 {
-    text-align: left;
-}
-
-.type2 {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-p1 {
-    position: relative;
-    left: 33vw;
-    text-align: left;
-}
-
-p2 {
-    text-align: right;
+.headershadow {
+    position: fixed;
+    top:100px;
+    width: 100vw;
+    height: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(255, 255, 255, 0));
+    z-index: 10;
 }

@@ -1,3 +1,5 @@
+/** js document */
+
 var myVideo=document.getElementById("video1"); 
             
 function playPause()
