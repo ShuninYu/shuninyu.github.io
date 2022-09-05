@@ -94,24 +94,26 @@
         </div>
         <div style="height: 100px;"></div>
 
-        <!--gitment-->
-        <div id="containe" style="width: 60vw; padding-left: 20vw; font-size: medium;"></div>
-        <link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-        <script src="https://jjeejj.github.io/js/gitment.js"></script>
-        <script>
-            var gitment = new Gitment(
-                {
-                    //id: 'about', // 可选。默认为 location.href
-                    owner: ShuninYu,
-                    repo: shuninyu.github.io,
-                    oauth: {
-                        client_id: 89178d20e060b941ba73,
-                        client_secret: 6a2ad56f2ff7afe691f4cd11b91da31ad8c70e21,
-                    },
-                }
-            )
-            gitment.render('containe')
-        </script>
+        <!-- Gitalk 评论 start  -->
+
+        <!-- Link Gitalk 的支持文件  -->
+        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+        <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+        <div id="gitalk-container"></div>     <script type="text/javascript">
+            var gitalk = new Gitalk({
+
+            // gitalk的主要参数
+                clientID: '89178d20e060b941ba73',
+                clientSecret: 'c75d343d1607b958da4f0c291d0a5c81c5a7ba4d',
+                repo: 'shuninyu.github.io',
+                owner: 'ShuninYu',
+                admin: ['ShuninYu'],
+                id: 'window.location.pathname',
+                distractionFreeMode: true,
+            });
+            gitalk.render('gitalk-container');
+        </script> 
+        <!-- Gitalk end -->
     </body>
 
     <footer style="text-align: center; font-size: 17px; padding-bottom: 2vw; padding-top: 2vw; color: gray;">
