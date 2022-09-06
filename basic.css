@@ -68,7 +68,7 @@ body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off
     margin: 0;
     width: 10vw;
     height: 100px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: white;
     color: black;
     font-size: large;
     filter: opacity(0.7);
@@ -78,7 +78,7 @@ body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off
 
 .topbutton:hover {
     /*background-color: rgb(213, 243, 255);*/
-    background: linear-gradient(rgb(237, 248, 253), rgb(199, 239, 255));
+    background-color: rgb(199, 239, 255);
     filter: opacity(1);
     opacity: 1;
 }
