@@ -65,6 +65,7 @@ body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off
 .topbutton {
     border-style: none;
     cursor:pointer;
+    font-weight: bold;
     margin: 0;
     width: 10vw;
     height: 100px;

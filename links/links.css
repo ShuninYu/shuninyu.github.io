@@ -1,0 +1,8 @@
+@charset "uft-8";
+/* css document */
+
+.colortext {
+    background-image: -webkit-linear-gradient(top, rgb(172, 225, 243), skyblue , rgb(199, 227, 236));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
