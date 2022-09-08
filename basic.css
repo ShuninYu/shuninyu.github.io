@@ -68,6 +68,7 @@ body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off
     font-weight: bold;
     margin: 0;
     width: 10vw;
+    min-width: 100px;
     height: 100px;
     background-color: white;
     color: black;
