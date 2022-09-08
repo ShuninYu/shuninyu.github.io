@@ -103,28 +103,18 @@
             <img src="http://readme-typing-svg.herokuapp.com?font=STSong+Code&duration=2500&pause=1000&center=true&vCenter=true&multiline=true&lines=感谢你的来访。;Thanks%20for%20your%20visit." width="460" height="80"></a>
         </div>
         <div style="height: 100px;"></div>
-
-        <!-- Gitalk 评论 start  -->
-
-        <!-- Link Gitalk 的支持文件  -->
-        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-        <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
-        <div id="gitalk-container" style="width: 70vw; padding-left:20vw;"></div>
-        <script type="text/javascript">
-            var gitalk = new Gitalk({
-
-            // gitalk的主要参数
-                clientID: '89178d20e060b941ba73',
-                clientSecret: 'c75d343d1607b958da4f0c291d0a5c81c5a7ba4d',
-                repo: 'shuninyu.github.io',
-                owner: 'ShuninYu',
-                admin: ['ShuninYu'],
-                id: 'window.location.pathname',
-                distractionFreeMode: true,
-            });
-            gitalk.render('gitalk-container');
-        </script> 
-        <!-- Gitalk end -->
+        <!--disqus start-->
+        <div id="disqus_thread" style="width: 70vw; padding-left:20vw;"></div>
+        <script>
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://shuninyu.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <!--disqus end-->
     </body>
 
     <footer>
