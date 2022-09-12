@@ -112,3 +112,17 @@ body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off
     background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.05) , rgba(255, 255, 255, 0));
     z-index: 10;
 }
+
+.bluebutton{
+    cursor:pointer;
+    border-style: none;
+    border-radius: 6px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    background: linear-gradient(to right, lightblue, rgb(201, 224, 231));
+}
+
+.bluebutton:hover {
+    background: linear-gradient(to right, skyblue, lightblue);
+}
