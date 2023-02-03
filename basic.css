@@ -4,13 +4,13 @@
 @font-face
 {
 	font-family: Song;
-	src: url('./fonts/STSONG.TTF');
+	src: url('fonts/STSONG.TTF');
 }
 
 @font-face
 {
 	font-family: consola;
-	src: url('./fonts/consola.ttf');
+	src: url('fonts/consola.ttf');
 }
 
 * {
