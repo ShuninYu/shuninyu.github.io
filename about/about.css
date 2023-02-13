@@ -1,8 +1,26 @@
 @charset "uft-8";
 /* css document */
 
+body {
+    font-weight: normal;
+    line-height: 2em;
+}
+
 h1 {
+    font-weight: normal;
     text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+li {
+    font-weight: normal;
 }
 
 .type1 {

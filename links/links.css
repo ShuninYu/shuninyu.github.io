@@ -6,3 +6,17 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.friendlink {
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.friendlink:hover {
+    background-color: rgb(179, 216, 231);
+    color: black;
+}

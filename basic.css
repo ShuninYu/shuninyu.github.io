@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Song';
+    /*font-family: 'Song';*/
 }
 
 
@@ -31,6 +31,14 @@ footer {
     padding-bottom: 2vw;
     padding-top: 2vw;
     color: gray;
+}
+
+span {
+    /*font-size: normal;*/
+}
+
+p2 {
+    font-size: small;
 }
 
 /*↓↓↓萌娘百科版文字黑幕↓↓↓*/
@@ -77,14 +85,14 @@ body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off
 .topbutton {
     border-style: none;
     cursor:pointer;
-    font-weight: bold;
+    font-weight: normal;
     margin: 0;
     width: 10vw;
     min-width: 100px;
     height: 100px;
     background-color: white;
     color: black;
-    font-size: large;
+    font-size: 1em;
     filter: opacity(0.7);
     opacity: 0.7;
     transition: 1s;
@@ -130,7 +138,7 @@ body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off
     border-style: none;
     border-radius: 6px;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: normal;
     margin: 0;
     background: linear-gradient(to right, lightblue, rgb(201, 224, 231));
 }

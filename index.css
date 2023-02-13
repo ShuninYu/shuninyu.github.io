@@ -5,10 +5,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Song';
+    /*font-family: 'Song';*/
 }
 
-h1 {line-height: normal;}
+p {
+    font-size: x-large;
+    font-weight: normal;
+}
+
+h1 {
+    font-weight: normal;
+    line-height: normal;
+}
+
+.clock {
+    font-size: x-large;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
 
 .emptyspace {
     height: 14vw !important;
