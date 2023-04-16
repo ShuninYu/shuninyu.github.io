@@ -102,11 +102,11 @@ div.rotate_right {
     background-size: auto 100%;
     background-repeat:no-repeat;
     background-position: center;
-    background-color: rgb(10 , 20 , 60);
+    background-color: rgb(0 , 0 , 0);
 }
 
 .flexitem:hover {
-    flex-grow: 5;
+    flex-grow: 3;
 }
 
 .flexitem:hover .flexcover {
