@@ -28,20 +28,19 @@ footer {
 .downloadbutton {
     position: absolute;
     z-index: 2;
-    left: 27vw;
-    top: 30vw;
+    left: 40vw;
+    top: 20vw;
     display: inline-block;
-    border-radius: 8px;
+    border-radius: 1vw;
     background-color: rgb(90 , 70 , 50);
     border: none;
     color: #FFFFFF;
     text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 240px;
+    font-size: 1.5vw;
+    padding: 1vw;
+    width: 12vw;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
 }
 
 .downloadbutton:hover {
@@ -60,13 +59,13 @@ content: '》';
 position: absolute;
 font-size: larger;
 opacity: 0;
-top: 20px;
-right: -50px;
+top: 1vw;
+right: -2.6vw;
 transition: 0.5s;
 }
 
 .downloadbutton:hover span {
-padding-right: 40px;
+padding-right: 2vw;
 }
 
 .downloadbutton:hover span:after {
