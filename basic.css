@@ -67,13 +67,14 @@ body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off
     right: 20px;
     bottom: 20px;
     z-index: 11;
+    width: 114px;
+    height: 72px;
+    background-image: url("image/Button_Duck_GoToTop.png");
+    background-size: contain;
+    image-rendering: pixelated;
 }
 
-#gotop img{
-    width: 130px;
-}
-
-#gotop img:hover{
+#gotop:hover{
     cursor: pointer;
 }
 /*到顶部↑*/
