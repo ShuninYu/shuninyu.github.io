@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <title>画廊 | 孤灯从流</title><!--这里补充页面Title-->
         <link rel="icon" href="../favicon.ico">
-        <link rel="stylesheet" type="text/css" href="../basic.css">
-        <link rel="stylesheet" type="text/css" href="gallery.css"><!--补充css文件位置-->
-        <script src="../basic.js" type="text/javascrip"></script>
-        <script src="gallery.js" type="text/javascrip"></script><!--补充js文件位置-->
+        <link rel="stylesheet" href="../basic.css">
+        <link rel="stylesheet" href="gallery.css"><!--补充css文件位置-->
+        <script src="../basic.js"></script>
+        <script src="gallery.js"></script><!--补充js文件位置-->
     </head>
 
-    <body>
+    <body style="background-color: white;">
         <script>
             var query = new URLSearchParams(window.location.search.slice(1))
             var url = query.get('url') ?? "white.png";
@@ -44,6 +44,7 @@
                 </script>
             </div>
         </div>
+        <img id="lightSwitcher" class="lightSwitch" src="../image/svg/wallbutton_on.svg" onclick="lightToggle()">
     </body>
 
     <footer>

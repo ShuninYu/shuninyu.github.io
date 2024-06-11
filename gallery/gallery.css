@@ -10,12 +10,12 @@
 .outside {
     margin-left: auto;
     margin-right: auto;
-    max-width: 50vw;
+    max-width: 42vw;
     aspect-ratio: 1;
     text-align: center;
     border: 1vw rgb(0 , 0 , 0);
     border-style: solid;
-    box-shadow: 0vw 0vw 3vw 1vw rgb(111 , 111 , 111);
+    box-shadow: 0vw 0vw 3vw 1vw rgba(0 , 0 , 0 , 0.5);
 }
 
 .inside {
@@ -26,4 +26,14 @@
     border-bottom: 0.5vw rgb(50 , 50 , 50);
     border-style: solid;
     background-color: rgb(80, 70, 60);
+}
+
+.lightSwitch {
+    position: absolute;
+    top: 24vw;
+    left: 84vw;
+    width: 4vw;
+    height: 4vw;
+    border: none;
+    cursor: pointer;
 }
