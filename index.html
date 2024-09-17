@@ -47,15 +47,37 @@
         </div>
         <div class="overlay" style="text-align: center; line-height: 1.2;">
             <div>
-                <img src="image/duckhead_circle.png" style="opacity: 0.99; width: 9.37vw;">
+                <img id="img" src="image/main/2.jpg" style="opacity: 1; width: 40vw;">
             </div>
-            <p1 style="font-family:'Song'; font-size: 3vw; color:white; opacity: 0.99; font-weight: lighter;">
+            <p1 style="font-family:'Song'; font-size: 3vw; color:white; opacity: 1; font-weight: lighter;">
                 欢迎来到孤灯从流的小站
             </p1>
             <p1 style="font-family:'Song'; font-size: 1.55vw; color:white; opacity: 0.6; font-weight: lighter;">
                 <br><a title="鸽子长蹼，又咕又划🤔">兴趣使然、志向远大的鸽子</a>
                 <br><a style="font-size: 1.2vw;">鸽子长蹼，又咕又划？🤔</a>
             </p1>
+        </div>
+        <script>
+            /*
+                分析：
+                    1.在页面上使用img标签展示图片
+                    2.定义一个方法，修改图片对象的 src属性
+                    3.定义一个定时器，每隔4秒调用方法一次
+            */
+            // 修改图片src属性
+            var number=1;
+            function fun(){
+                number++;
+                if(number>3) number=1;
+                //获取img对象
+                var img = document.getElementById("img");
+                img.src = "image/main/"+number+".jpg";
+            }
+            // 定义定时器
+            setInterval(fun,4000);
+        </script>
+        <div class="overlay" style="z-index: 2;">
+            <img src="image/main/black.gif" style="opacity: 1; width: 40vw;">
         </div>
         <div class="homeimg">
             <div class="homeimgtext" style="margin-top: 1vw; margin-bottom: 11.5vw;">
