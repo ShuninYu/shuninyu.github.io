@@ -3,24 +3,24 @@
     <head>
         <meta charset="utf-8">
         <title>孤灯从流</title>
-        <link rel="icon" href="favicon.ico">
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <link rel="stylesheet" type="text/css" href="basic.css">
-        <script src="basic.js" type="text/javascrip"></script>
-        <script src="index.js" type="text/javascrip"></script>
+        <link rel="icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="../index.css">
+        <link rel="stylesheet" type="text/css" href="../basic.css">
+        <script src="../basic.js" type="text/javascrip"></script>
+        <script src="../index.js" type="text/javascrip"></script>
     </head>
 
     <body>
         <div class="header">
-            <img class="gdcl" src="image/logo/GDCL.gif">
+            <img class="gdcl" src="../image/logo/GDCL.gif">
             <div class="blanket">
-                <button class="topbutton">首页
-                <button class="topbutton" onclick="location.href='works';">展示
+                <button class="topbutton" onclick="location.href='/';">首页
+                <button class="topbutton" onclick="location.href='../works';">展示
                 <button class="topbutton" onclick="location.href='https://blog.shuninyu.fun';">博客
-                <button class="topbutton" onclick="location.href='about';">关于
-                <button class="topbutton" onclick="location.href='links';">链接
-                <button class="topbutton" onclick="location.href='freepalestine';">🕊️</button>
-            </div>
+                <button class="topbutton" onclick="location.href='../about';">关于
+                <button class="topbutton" onclick="location.href='../links';">链接
+                <button class="topbutton">🕊️</button>
+                </div>
         </div>
         <div class="headershadow"></div>
         <div id = "gotop" alt="gotop"></div>
@@ -43,50 +43,13 @@
                 }
             }
         </script>
-        <div class="container"> 
-            <img src="image/main/bg.gif" style="width: 100%;">
-        </div>
-        <div class="overlay" style="text-align: center; line-height: 1.2;">
-            <div>
-                <img id="img" src="image/main/2.jpg" style="opacity: 1; width: 40vw;">
-            </div>
-            <p1 style="font-family:'Song'; font-size: 3vw; color:white; opacity: 1; font-weight: lighter;">
-                欢迎来到孤灯从流的小站
-            </p1>
-            <p1 style="font-family:'Song'; font-size: 1.55vw; color:white; opacity: 0.6; font-weight: lighter;">
-                <br><a title="鸽子长蹼，又咕又划🤔">兴趣使然、志向远大的鸽子</a>
-                <br><a style="font-size: 1.2vw;">鸽子长蹼，又咕又划？🤔</a>
-            </p1>
-        </div>
-        <script>
-            /*
-                分析：
-                    1.在页面上使用img标签展示图片
-                    2.定义一个方法，修改图片对象的 src属性
-                    3.定义一个定时器，每隔4秒调用方法一次
-            */
-            // 修改图片src属性
-            var number=1;
-            function fun(){
-                number++;
-                if(number>4) number=1;
-                //获取img对象
-                var img = document.getElementById("img");
-                img.src = "image/main/"+number+".jpg";
-            }
-            // 定义定时器
-            setInterval(fun,4000);
-        </script>
-        <div class="overlay" style="z-index: 2;">
-            <img src="image/main/black.gif" style="opacity: 1; width: 40vw;">
-        </div>
         <div class="homeimg">
             <div class="homeimgtext" style="margin-top: 1vw; margin-bottom: 11.5vw;">
                 <p>忙碌的一天过后，小哥（街边卖炸薯条的小朋友）的梦中会有什么呢？<br>说不定做薯条早已属于美梦成真呢，毕竟这在其他很多孩子眼中确实是个美梦。<br>有一个营生的小摊，有一条有序的街道，有一个没有枪弹呼啸，大地震撼的日夜。<br>有人想着它睡去了，有人为了它，会拼着命般再次睁眼醒来。</p>
                 <button onclick="location.href='https://www.bilibili.com/video/BV1VD421g7cK?t=186.2';" class="gazabutton"><p style="font-size: 1vw;">——bilibili@世界美食Official《这是8岁？技术未免太好了》</p></button>
             </div>
             <div class="homeimgtext">
-                <h1>解放巴勒斯坦 <img src="image/homepage/palestineflag.png"></h1>
+                <h1>解放巴勒斯坦 <img src="../image/homepage/palestineflag.png"></h1>
             </div>
         </div>
         <!--
