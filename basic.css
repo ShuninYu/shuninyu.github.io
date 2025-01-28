@@ -149,6 +149,7 @@ body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off
     position: absolute;
     top: 1vw;
     left: 1vw;
+    image-rendering: pixelated;
 }
 
 .pixel {
