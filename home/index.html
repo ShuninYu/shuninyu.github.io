@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>孤灯从流</title>
+        <link rel="icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="oldindex.css">
+        <link rel="stylesheet" type="text/css" href="../basic.css">
+        <script src="../basic.js" type="text/javascrip"></script>
+        <script src="../index.js" type="text/javascrip"></script>
+    </head>
+
+    <body>
+        <div class="header">
+            <img class="gdcl" src="../image/logo/GDCL.gif">
+            <div class="blanket">
+                <button class="topbutton" onclick="location.href='/';">首页
+                <button class="topbutton" onclick="location.href='../works';">展示
+                <button class="topbutton" onclick="location.href='https://blog.shuninyu.fun';">博客
+                <button class="topbutton" onclick="location.href='../about';">关于
+                <button class="topbutton" onclick="location.href='../links';">链接
+                <button class="topbutton" onclick="location.href='../freepalestine';">🕊️</button>
+            </div>
+        </div>
+        <div class="headershadow"></div>
+        <div id = "gotop" alt="gotop"></div>
+        <script>
+            window.addEventListener("scroll",handle)
+
+            function handle(){
+                var oTop = document.body.scrollTop||document.documentElement.scrollTop
+                if(oTop>=80){
+                    gotop.style.display = "block";
+                }else{
+                    gotop.style.display = "none";
+                }
+
+                gotop.onclick = function(){
+                    window.scrollTo({
+                        top:0,
+                        behavior:"smooth"
+                    })
+                }
+            }
+        </script>
+        <div class="container"> 
+            <img src="../image/main/bg.gif" style="width: 100%;">
+        </div>
+        <div class="overlay" style="text-align: center; line-height: 1.2;">
+            <div>
+                <img id="img" src="../image/main/2.jpg" style="opacity: 1; width: 40vw;">
+            </div>
+            <p1 style="font-family:'Song'; font-size: 3vw; color:white; opacity: 1; font-weight: lighter;">
+                欢迎来到孤灯从流的小站
+            </p1>
+            <p1 style="font-family:'Song'; font-size: 1.55vw; color:white; opacity: 0.6; font-weight: lighter;">
+                <br><a title="鸽子长蹼，又咕又划🤔">兴趣使然、志向远大的鸽子</a>
+                <br><a style="font-size: 1.2vw;">鸽子长蹼，又咕又划？🤔</a>
+            </p1>
+        </div>
+        <script>
+            /*
+                分析：
+                    1.在页面上使用img标签展示图片
+                    2.定义一个方法，修改图片对象的 src属性
+                    3.定义一个定时器，每隔4秒调用方法一次
+            */
+            // 修改图片src属性
+            var number=1;
+            function fun(){
+                number++;
+                if(number>4) number=1;
+                //获取img对象
+                var img = document.getElementById("img");
+                img.src = "../image/main/"+number+".jpg";
+            }
+            // 定义定时器
+            setInterval(fun,4000);
+        </script>
+        <div class="overlay" style="z-index: 2;">
+            <img src="../image/main/black.gif" style="opacity: 1; width: 40vw;">
+        </div>
+        <!--
+        <h1 style="text-align: center;">这里暂时还没有内容，要不先去<button class="bluebutton" onclick="location.href='works';" style="width: 3.5em; height: 1.5em;">"作品"</button>看看？</h1>
+        <h1 style="text-align: center; padding-top: 2em;">网站正在建设中，遇到404莫慌，因为那代表我还没有做(或者做了还没上传)那个页面。</h1>
+        <h1 style="text-align: center; padding-top: 2em;">哦对了，最近新建了Blog站点，要不要<button class="bluebutton" onclick="location.href='https://blog.shuninyu.fun/';" style="width: 3.5em; height: 1.5em;">去看看</button>？</h1>
+        <h1 style="text-align: center; padding-left:30vw; font-size: 20px;">点击顶部导航栏的"博客"也可以访问</h1>
+        <div style="height: 2500px;"></div>
+        <h1 style="text-align: center;">留这么长的空白是为了测试回到顶部按钮是否正常工作，你居然对着一大片空白翻到这里了。</br>🤙牛！</h1>
+        <div style="height: 300px;"></div>
+        -->
+    </body>
+
+    <footer>
+        <p2>©2022 <a href="/" style="font-size: normal; color: gray; font-weight: 800; text-decoration: none;">ShuninYu</a> | 孤灯从流</br></p2>
+    </footer>
+</html>

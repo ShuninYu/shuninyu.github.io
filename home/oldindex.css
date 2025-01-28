@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(190, 70, 70);
     /*font-family: 'Song';*/
 }
 
@@ -17,40 +16,6 @@ p {
 h1 {
     font-weight: normal;
     line-height: normal;
-}
-
-.enterbutton {
-    position: relative;
-    left: 58vw;
-    top: 23vw;
-    color: rgb(200, 150, 50);
-    background-color: white;
-    border-style: solid;
-    border-radius: 2.5vw;
-    border-width: 0.5vw;
-    border-color: rgb(200, 150, 50);
-    width: 14vw;
-    height: 5vw;
-    font-size: 2.5vw;
-    padding-top: 0.2vw;
-    font-weight: bold;
-    text-align: center;
-    user-select: none;
-    transition: 0.6s;
-}
-
-.enterbutton:hover {
-    cursor: pointer;
-    color: rgb(133, 112, 22);
-    background-color: rgb(231, 191, 138);
-    border-color: rgb(133, 112, 22);
-    box-shadow: 1vw 1vw 1vw rgba(0 , 0 , 0 , 0.3);
-}
-
-.enterbutton:active {
-    color: rgb(95, 80, 11);
-    background-color: rgb(206, 166, 114);
-    border-color: rgb(95, 80, 11);
 }
 
 .clock {
@@ -120,14 +85,4 @@ h1 {
 
 .gazabutton:hover {
     background-color: rgba(80 , 80 , 80 , 0.4);
-}
-
-.cover {
-    background-image: url('image/main/2025web.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: auto;
-    width: 79vw;
-    height: 40vw;
 }

@@ -145,10 +145,14 @@ body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off
 
 .gdcl {
     z-index: 100;
-    width: 200px;
+    width: 11vw;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 1vw;
+    left: 1vw;
+}
+
+.pixel {
+    image-rendering: pixelated;
 }
 
 /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
