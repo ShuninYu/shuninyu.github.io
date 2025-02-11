@@ -22,7 +22,7 @@ h1 {
 .enterbutton {
     position: relative;
     left: 58vw;
-    top: 23vw;
+    top: 25vw;
     color: rgb(200, 150, 50);
     background-color: white;
     border-style: solid;
@@ -128,6 +128,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: contain;
     margin: auto;
+    margin-top: 2vw;
     width: 79vw;
     height: 40vw;
 }
