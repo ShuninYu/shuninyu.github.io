@@ -128,7 +128,8 @@ h1 {
     background-repeat: no-repeat;
     background-size: contain;
     margin: auto;
-    margin-top: 2vw;
+    margin-top: 4vw;
+    margin-bottom: 0vw;
     width: 79vw;
     height: 40vw;
 }
